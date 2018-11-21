@@ -1,3 +1,3 @@
 ExUnit.start()
 
-Ecto.Adapters.SQL.Sandbox.mode(MyApp.Repo, :manual)
+Ecto.Adapters.SQL.Sandbox.mode(SmartwareEx.Repo, :manual)
