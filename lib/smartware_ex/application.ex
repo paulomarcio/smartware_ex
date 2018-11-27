@@ -8,7 +8,7 @@ defmodule SmartwareEx.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
-      SmartwareEx.Repo,
+      SmartwareEx.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

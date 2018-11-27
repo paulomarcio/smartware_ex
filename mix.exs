@@ -26,7 +26,8 @@ defmodule SmartwareEx.MixProject do
       {:mariaex, "0.8.0"},
       {:httpoison, "~> 1.4"},
       {:ex_aws, "~> 2.1"},
-      {:ex_aws_s3, "~> 2.0"}
+      {:ex_aws_s3, "~> 2.0"},
+      {:exml, "~> 0.1.1"}
     ]
   end
 end
