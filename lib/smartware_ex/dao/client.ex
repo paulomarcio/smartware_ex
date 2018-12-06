@@ -1,4 +1,4 @@
-defmodule SmartwareEx.Common.Client do
+defmodule SmartwareEx.Dao.Client do
   import Ecto.Query, only: [from: 2]
 
   alias SmartwareEx.Schemas.Client

@@ -1,4 +1,4 @@
-defmodule SmartwareEx.Common.WcaDownload do
+defmodule SmartwareEx.Dao.WcaDownload do
   import Ecto.Query, only: [from: 2]
 
   alias SmartwareEx.Schemas.WcaDownload

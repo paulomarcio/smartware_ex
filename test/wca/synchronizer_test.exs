@@ -3,7 +3,7 @@ defmodule SmartwareEx.Wca.Synchronizertest do
   alias SmartwareEx.Wca.Synchronizer
   doctest SmartwareEx
 
-  test "update_mailing_list" do
+  test "update" do
     assert {:ok, :finished} = Synchronizer.update()
   end
 end

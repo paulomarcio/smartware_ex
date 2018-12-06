@@ -1,6 +1,6 @@
 defmodule SmartwareEx.Wca.Synchronizer do
-  alias SmartwareEx.Common.Client, as: SmartwareClient
-  alias SmartwareEx.Common.WcaDownload, as: WcaMailing
+  alias SmartwareEx.Dao.Client, as: SmartwareClient
+  alias SmartwareEx.Dao.WcaDownload, as: WcaMailing
 
   def update do
     SmartwareClient.get() |> clients
