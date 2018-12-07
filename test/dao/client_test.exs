@@ -1,6 +1,6 @@
-defmodule SmartwareEx.Common.ClientTest do
+defmodule SmartwareEx.Dao.ClientTest do
   use ExUnit.Case
-  alias SmartwareEx.Common.Client
+  alias SmartwareEx.Dao.Client
   doctest SmartwareEx
 
   test "smartware_clients" do

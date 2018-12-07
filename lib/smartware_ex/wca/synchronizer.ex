@@ -21,6 +21,8 @@ defmodule SmartwareEx.Wca.Synchronizer do
     HTTPoison.get("#{url}#{param}", [], timeout: 60_000, recv_timeout: 60_000) |> parser |> save(client)
   end
 
+  defp save({:error, message}), do: IO.puts("#{message}")
+
   defp save([], _client), do: {:ok, :finished}
 
   defp save([mailing | mailings], client) do
